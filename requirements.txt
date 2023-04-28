@@ -1,0 +1,5 @@
+numpy
+onnxruntime
+sentencepiece
+streamlit
+streamlit-chat
