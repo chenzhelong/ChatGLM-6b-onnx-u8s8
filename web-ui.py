@@ -48,7 +48,8 @@ if len(history) == 0:
 
 for idx, (question, answer) in enumerate(history):
     message(question, is_user=True, key=f"history_question_{idx}")
-    message(answer, key=f"history_answer_{idx}")
+    st.write(answer)
+    st.markdown("---")
 
 
 next_answer = st.container()
